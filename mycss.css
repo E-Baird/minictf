@@ -146,7 +146,8 @@ button {
     right: 0px;
 }
 
-.dino {
-    max-width: 400px;
+.recipe-image {
+    position: relative;
+    max-width: 100%;
     object-fit: contain;
 }
