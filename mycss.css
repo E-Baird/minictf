@@ -139,10 +139,14 @@ button {
 }
 
 .cat-chef {
-    position: absolute;
+    position: fixed;
     max-height: 250px;
     object-fit: contain;
     bottom: 0px;
     right: 0px;
 }
 
+.dino {
+    max-width: 400px;
+    object-fit: contain;
+}
