@@ -24,9 +24,9 @@ if (mysqli_connect_error()){
     $stmt->close();
   
       if( $num_row === 1 ) {
-        header("Location: ./search2.html");
+        header("Location: ./search.html");
       } else {
-      header("Location: ./results.html");
+      header("Location: ./login.html");
       }
 
 }
