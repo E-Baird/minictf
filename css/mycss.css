@@ -151,3 +151,16 @@ button {
     max-width: 100%;
     object-fit: contain;
 }
+
+.whiskers{
+    width: 50%;
+}
+
+
+.banner {
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
