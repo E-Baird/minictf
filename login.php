@@ -11,6 +11,7 @@ $dbname = "minictf";
 $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
 
 if (mysqli_connect_error()){
+	echo "Error:" . $conn->connect_error;
     echo "This was sad";
 } else {
     $SELECT = "SELECT * FROM users WHERE username='" .$username ."' AND password='" .$password ."'";
